@@ -1,0 +1,33 @@
+Objectives::
+1. Evaluate the response time of critical functionalities under load conditions.
+
+
+Tools::
+JMeter: It is widely known open source software for performance testing, load testing, and stress testing of web applications, APIs, and cloud services. It provides a user-friendly interface, supports various protocols, and offers extensive reporting capabilities in a graphical report.
+
+
+Test Cases::
+a. Registration: 
+Create a test suite to register users concurrently to check the ability of the system to handle new user sign-ups during peak load.
+b. Login:
+Simulate concurrent user logins to assess the response time and throughput of the login process under heavy load.
+c. Password setting and resetting :
+Simulate concurrent password setting and a few reseting requests to measure the system's performance in processing password related operations during peak usage.
+Metrics:
+
+Metrics :: 
+Response Time: Measure the time taken for each user action (registration, login, password reset).
+Throughput: Calculate the number of successful user actions processed per second.
+Error Rate: Monitor the percentage of failed requests or errors encountered during the test.
+CPU and Memory Usage: Track the server's CPU and memory utilization during the test to identify resource constraints.
+Test Environment:
+
+Server Configuration: Deploy the cloud service on a scalable infrastructure with sufficient CPU, memory, and network resources to support up to 10,000 concurrent users.
+Network Settings: Configure the network to simulate real-world conditions, including latency and bandwidth constraints.
+Load Generators: Distribute load generators across multiple machines to generate realistic traffic and distribute the load effectively.
+
+Analysis::
+Analyze the collected performance metrics using JMeter's built-in reporting tools and plugins.
+Identify any performance bottlenecks, such as high response times or error rates, and investigate the root causes.
+Generate comprehensive performance reports and share findings with stakeholders.
+Use performance profiling tools to analyze server-side performance and optimize critical components if necessary.

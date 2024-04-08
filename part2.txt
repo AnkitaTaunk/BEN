@@ -1,0 +1,41 @@
+I think we need to write the bugs that we found on the website while testing for part 2
+-----------------------------------------------------------------------------------------
+[Bug_01]
+[Bug Title] ::
+It allows garbage email addresses 
+
+[Preconditions/사전 조건] :: 
+*Open the website http://13.209.85.69/
+
+[Reproduction Steps/재현 방법] ::
+Step 1: Type the user name and password of your choice
+Step 2: Write a gmail address with unknown domains for example "!@$#@@$@@F>SLFKFJ.com"
+
+[Expected Results/기대 결과] ::
+It should ask the user to write a valid email address
+
+[Actual Results/실제 결과] ::
+Email address was accepted. 
+
+[Severity Assessment] ::
+Mid - The unknown email addresses would allow the user to access the website and access important information.
+
+
+-----------------------------------------------------------------------------------------
+[Bug_02] 
+
+[Bug Title] :: 
+If I press enter by mistake it starts showing the error popup 
+
+[Preconditions/사전 조건] :: 
+Open the website http://13.209.85.69/
+
+[Reproduction Steps/재현 방법] ::
+Step 1. Focus your mouse on the Text Editor, for example the text area below the "Username:"
+Step 2. If I press enter, it starts showing error popups like "Password must be at least 8 characters." 
+
+[Expected Results/기대 결과]
+It should move out of focus from the current text editor area where user is typing
+
+[Actual Results/실제 결과]
+Error Pop up is displayed 

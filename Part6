@@ -1,0 +1,21 @@
+Task 1 (JIRA Bug Report):
+
+Summary: Unable to submit registration form due to validation error
+
+Description:
+When attempting to register a new account on the website, users encounter a validation error preventing the submission of the registration form. This issue is impacting the user experience and preventing new users from signing up for the service.
+
+Steps to Reproduce:
+Navigate to the registration page on the website.
+Fill in the required fields with valid information (e.g., username, password, email).
+Ensure that all fields meet the specified validation criteria.
+Click on the "Submit" button to submit the registration form.
+Expected Result:
+The registration form should be successfully submitted, and the user should be redirected to a confirmation page indicating that the account has been created.
+
+Actual Result:
+After clicking the "Submit" button, the registration form does not submit, and an error message is displayed indicating that there are validation errors in the form fields. Users are unable to proceed with the registration process.
+
+Priority: High
+
+Attachments: (Optional - screenshots, log files, etc.)
